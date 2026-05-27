@@ -57,11 +57,11 @@ public class LoanApproval {
         }
 
         // Rule 5
-        if (employment == 'C') {
-            return "APPROVE";
+        if (employment == 'F') {
+            return "MANUAL REVIEW";
         }
 
         // Rule 6
-        return "MANUAL REVIEW";
+        return "APPROVE";
     }
 }
